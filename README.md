@@ -1,4 +1,4 @@
-Senior-level React 19 machine coding solution with:
+### Senior-level React 19 machine coding solution with:
 - useDeferredValue
 - Error Boundary
 - Suspense + Lazy Loading
@@ -8,3 +8,5 @@ Senior-level React 19 machine coding solution with:
 - Accessibility improvements
 - Modular architecture
 - TypeScript strict mode
+
+<img src="images/screenshot.jpeg" width="500" >
