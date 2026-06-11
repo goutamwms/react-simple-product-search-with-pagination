@@ -1,4 +1,6 @@
-export default function CategoryFilter({
+import React from 'react';
+
+const CategoryFilter = ({
   categories,
   value,
   onChange,
@@ -6,7 +8,7 @@ export default function CategoryFilter({
   categories: string[];
   value: string;
   onChange: (v: string) => void;
-}) {
+}) => {
   return (
     <select
       aria-label="Category filter"
@@ -20,3 +22,5 @@ export default function CategoryFilter({
     </select>
   );
 }
+
+export default React.memo(CategoryFilter);
